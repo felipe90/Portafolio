@@ -8,6 +8,7 @@
 		<link rel="stylesheet" type="text/css" href="../static/css/styles.css">
 	</head>
 	<body>
+		<div id="yolo">hello</div>
 		<header id="yo" class="Header">
 			<nav class="MainMenu">
 				<ul class="MainMenu-list">
@@ -26,9 +27,9 @@
 				</ul>
 			</nav>
 			<figure class="Header-imageContainer">
-				<img src="avatar.jpg" alt="Imagen Personal" class="Header-image"/>
+				<img src="../static/images/avatar.jpg" alt="Imagen Personal" class="Header-image"/>
 				<figcaption class="Header-imageDescription">
-					<a  class="Header-link" href="http://www.twitter.com/AFelipe90" target="_black">Twitter</a>
+					<a  class="Header-link" href="http://www.twitter.com/AFelipe90" target="_black">@AFelipe90</a>
 				</figcaption>
 				<p class="Header-name">Andres Felipe Rojas</p>
 			</figure>
@@ -45,34 +46,37 @@
 		<section id="trabajo" class="Work">
 			<h2 class="Work-title  u-title">Trabajo</h2>
 			<article class="Work-item">
-				<figure><img src="mejorandola.jpg" alt="descripcion"></figure>
-				<figcaption>Este es el sitio web de mejorandola</figcaption>
+				<figure class="Work-imageContainer"><img src="../static/images/mejorandola.jpg" alt="descripcion"></figure>
+				<figcaption class="Work-description">Este es el sitio web de mejorandola</figcaption>
 			</article>
 			<article class="Work-item">
-				<figure><img src="mejorandola.jpg" alt="descripcion"></figure>
-				<figcaption>Este es el sitio web de mejorandola</figcaption>
+				<figure class="Work-imageContainer"><img src="../static/images/mejorandola.jpg" alt="descripcion"></figure>
+				<figcaption class="Work-description">Este es el sitio web de mejorandola</figcaption>
 			</article>
 			<article class="Work-item">
-				<figure><img src="mejorandola.jpg" alt="descripcion"></figure>
-				<figcaption>Este es el sitio web de mejorandola</figcaption>
+				<figure class="Work-imageContainer"><img src="../static/images/mejorandola.jpg" alt="descripcion"></figure>
+				<figcaption class="Work-description">Este es el sitio web de mejorandola</figcaption>
 			</article>
 			<article class="Work-item">
-				<figure><img src="mejorandola.jpg" alt="descripcion"></figure>
-				<figcaption>Este es el sitio web de mejorandola</figcaption>
+				<figure class="Work-imageContainer"><img src="../static/images/mejorandola.jpg" alt="descripcion"></figure>
+				<figcaption class="Work-description">Este es el sitio web de mejorandola</figcaption>
 			</article>
 			<article class="Work-item">
-				<figure><img src="mejorandola.jpg" alt="descripcion"></figure>
-				<figcaption>Este es el sitio web de mejorandola</figcaption>
+				<figure class="Work-imageContainer"><img src="../static/images/mejorandola.jpg" alt="descripcion"></figure>
+				<figcaption class="Work-description">Este es el sitio web de mejorandola</figcaption>
 			</article>
 		</section>
 		<footer id="contacto" class="Footer">
-			<h3  class="Footer-title">Contacto</h3>
-			<p class="Footer-description">Formulario de contacto para trabajo</p>
-			<form action=""  class="Footer-form">
-				<input type="text" placeholder="Nombre"/>
-				<input type="email" placeholder="Email"/>
-				<textarea name="" id="" placeholder="Motivo" cols="30" rows="10"></textarea>
-				<button type="Submit">Contartar</button>
+			<div class="Footer-left">			
+				<h3 class="Footer-title">Contacto</h3>
+				<p class="Footer-description">Formulario de contacto para trabajo</p>
+			</div>
+
+			<form action="" class="Footer-form">
+				<input class="Footer-formInput" type="text" placeholder="Nombre"/>
+				<input class="Footer-formInput" type="email" placeholder="Email"/>
+				<textarea class="Footer-formTextArea" name="" id="" placeholder="Motivo" cols="30" rows="10"></textarea>
+				<button class="Footer-formButton" type="Submit">Contactar</button>
 			</form>
 		</footer>	
 	</body>
